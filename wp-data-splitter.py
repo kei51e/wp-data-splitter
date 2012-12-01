@@ -1,5 +1,6 @@
-# wp-data-splitter.py: split a large wordpress export file into smaller ones
-# See https://github.com/kei-51/wp-data-splitter for usage and license. 
+# wp-data-splitter.py: split a large wordpress data file into smaller ones
+# See https://github.com/kei-51/wp-data-splitter for details. 
+# License: MIT license http://www.opensource.org/licenses/mit-license.php
 
 import sys
 
@@ -74,7 +75,7 @@ def read_item(f):
     l = f.readline()
  
     # end of the file. 
-    if (l=''):  
+    if (l==''):  
       return ''
     s += l
     if(l.find('</item>') > -1):
