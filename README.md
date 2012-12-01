@@ -28,6 +28,9 @@ export format. Especially, it assumes that each items starts with `<item>`
 and ends with `</item>`. I tested and verified it works with wordpress 3.4.2 but
 it does not guaratee that it also works with future versions. 
 
+This is my 1st python program ever :) 
+Please let me know if you have any issues or comments.
+
 ## Licence
 
 This is licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php 
