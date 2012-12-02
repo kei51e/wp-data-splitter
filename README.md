@@ -18,7 +18,7 @@ to make each file size smaller than 2MB. This tool can automate that process.
     
 Default chunksize is 1572864 (1.5MB)
 
-## Restriction 
+## Limitation 
 
 This is just a python script that does the simple text manupilation. 
 No additional python modules required. 
@@ -27,9 +27,6 @@ It assumes that the data file format is based on the current standard wordpress
 export format. Especially, it assumes that each items starts with `<item>`
 and ends with `</item>`. I tested and verified it works with wordpress 3.4.2 but
 it does not guaratee that it also works with future versions. 
-
-This is my 1st python program ever :) 
-Please let me know if you have any issues or comments.
 
 ## Licence
 
