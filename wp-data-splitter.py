@@ -21,7 +21,7 @@ def main():
     print "wp_export_splitter.py <filename>"
     sys.exit()
 
-  # set the internal limit not to exceed the hard limit
+  # set the internal limit not to exceed the original limit
   limit -= 10000
 
   src = open(file,'r')
@@ -81,7 +81,7 @@ def read_item(f):
     if(l.find('</item>') > -1):
       break
 
-  # This happens only in the 1st item.
+  # This happens only on the 1st item.
   if (s.find('<item>') == -1):
     s = '<item>\n' + s
   return s 
